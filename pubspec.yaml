@@ -1,0 +1,59 @@
+name: qr_scanner_ims
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.14.0
+  cupertino_icons: ^1.0.2
+  qr_code_scanner: ^1.0.1
+  flutter_launcher_icons: ^0.13.1
+  double_back_to_close_app: ^2.1.0
+  flutter_native_splash: ^2.3.1
+  cloud_firestore: ^4.8.1
+  shared_preferences: ^2.1.2
+  fluttertoast: ^8.2.2
+  flutter_easyloading: ^3.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  adaptive_icon_background: "#FFFFFF"
+  ios: true
+  adaptive_icon_foreground: "assets/logoNoBG.png"
+  image_path: "assets/icon.jpg"
+
+flutter_native_splash:
+  background_image: "assets/splash.png"
+  background_image_android: "assets/splash.png"
+  image_android: "assets/splash.png"
+  icon_background_color: "#111111"
+  fullscreen: true
+  android_12:
+    color: "#F57822"
+    image: assets/logoNoBG.png
+    icon_background_color: "#FFFFFF"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.jpg
+    - assets/bg.png
+    - assets/splash.png
+    - assets/logoNoBG.png
+    - assets/raj.png
+    - assets/logo_2-removebg-preview.png
